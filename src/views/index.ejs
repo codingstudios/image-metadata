@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- Handmade By Chee Yong Lee <@leecheeyong> (https://joe.js.org)-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="/style.css" />
+   <meta name="description" content="Retrieve metadata from an image, made with love by Chee Yong Lee (Joe)" />
+   <meta property="twitter:image" content="/image-metadata.png"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Image Metadata by Joe</title>
+  </head>
+<body>
+
+<div class="main">
+<!-- <form method="post" action="/image"  encType="multipart/form-data"> -->
+<form id="form">
+<a href="https://github.com/BotStudios/image-metadata" style="opacity:1"><h1>Image Metadata</h1></a><span>by <a href="https://joe.js.org">Chee Yong Lee</a></span>
+  <input type="file" id="file" name="filename" hidden>
+  <table id="data"></table>
+  <input type="text" id="url" name="url" placeholder="Image URI">
+  <label for="file">Choose file</label>
+  <button type="submit">Submit</button>
+</form>
+</div>
+  </body>
+  <script src="/script.js"></script>
+</html>
+<!-- This project is available as an open source under the terms of the MIT License (https://github.com/codingstudios/image-metadata/blob/main/LICENSE) -->
