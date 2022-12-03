@@ -1,0 +1,78 @@
+/*
+Handcoded By Chee Yong Lee (https://github.com/joeleeofficial) & (https://github.com/leecheeyong)
+This code is available as open source under the terms of the MIT License (https://github.com/CodingStudios/image-metadata/blob/main/LICENSE)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgb(255, 179, 179) , rgb(248, 248, 201));    
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items:center;
+}
+
+form {
+    background-color:#ffe4d9;
+    padding: 6vw;
+    color: #ff8f8f;
+    margin: 5vw;
+    border-radius: 25px;
+}
+
+#url {
+    color: #ff8f8f;
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+    padding-bottom: .2em;
+    margin-bottom: 1em;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #ff8f8f;
+}
+
+label, button{
+  margin: .5em;
+  background-color: #ff8f8f; 
+  border: none;
+  border-radius: 15px;
+  font-weight: 800;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 2em;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+a {
+   text-decoration: none;
+   color: #ff8f8f;
+   opacity: 0.8;
+}
+
+span {
+  line-height: 2em;
+  font-size: .8em;
+}
