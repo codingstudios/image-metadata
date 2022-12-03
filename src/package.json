@@ -14,8 +14,8 @@
     "url": "git+https://github.com/CodingStudios/image-metadata.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Lee Chee Yong (https://joe.js.org) <tojoeleeofficial@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CodingStudios/image-metadata/issues"
   },
